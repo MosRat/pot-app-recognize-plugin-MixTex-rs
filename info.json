@@ -1,0 +1,36 @@
+{
+  "id": "plugin.com.pot-app.MixTex",
+  "plugin_type": "recognize",
+  "icon": "icon.png",
+  "display": "MixTex",
+  "homepage": "https://github.com/MosRat/pot-app-recognize-plugin-MixTex-rs",
+  "needs": [
+    {
+      "key": "backend",
+      "display": "Backend",
+      "type": "select",
+      "options": { "1": "Cpu", "2": "Direct ML" }
+    }
+  ],
+  "language": {
+    "auto": "eng",
+    "zh_cn": "chs",
+    "zh_tw": "cht",
+    "en": "eng",
+    "ja": "jpn",
+    "ko": "kor",
+    "fr": "fre",
+    "es": "spa",
+    "ru": "rus",
+    "de": "ger",
+    "it": "ita",
+    "tr": "tur",
+    "pt_pt": "por",
+    "pt_br": "por",
+    "vi": "vie",
+    "th": "tai",
+    "ar": "ara",
+    "hi": "hin",
+    "fa": "per"
+  }
+}
